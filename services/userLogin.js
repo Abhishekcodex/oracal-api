@@ -5,7 +5,7 @@ const oraclecon = require('oracledb')
 const conn = oraclecon.createPool(config.db);
 async function GetData(value) {
     oraclecon.outFormat= oraclecon.OUT_FORMAT_OBJECT;
-    let query = "call cp_node.user_node();"
+    let query = "CP_UNBILIED_VIEW();"
     const rows = (await db.query(query));
     return {
         rows,

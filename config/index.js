@@ -1,8 +1,8 @@
 const config = {
     db: {
-      user: "SCSCORE",
-      password: "score012021emc",
-      connectionString: "124.30.245.82/ORCL",
+      user: "TCICORE",
+      password: "itcorp_c062102",
+      connectionString: "1.7.139.143:1522/ORCL",
     },    
   };
   module.exports = config;
